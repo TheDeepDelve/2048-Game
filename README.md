@@ -1,6 +1,6 @@
 # 2048 Game (Java)
 
-A desktop implementation of the classic 2048 puzzle game, built in Java using Swing and AWT for a smooth and responsive user interface.
+Java implementation of the 2048 game, featuring intuitive tile movement and merging on a 4x4 grid. Built with Java Swing and AWT to deliver a responsive, visually appealing UI. Leveraging custom painting and the Java Collections Framework, this project enhances game performance with improved rendering speed and input response time.
 
 ---
 
@@ -68,17 +68,35 @@ A desktop implementation of the classic 2048 puzzle game, built in Java using Sw
 
 ## Project Structure
 ```
-src/
-  Main.java           # Entry point
-  game/
-    Game.java         # Game logic
-    GameState.java    # State management
-    GUI.java          # User interface
-    Java2048.java     # Main game class
-res/
-  img/                # Tile images
-  highscore.txt       # High score storage
-Interfaces/           # Screenshots and UI images
+├── src/
+│   ├── Main.java                # Entry point
+│   └── game/
+│       ├── Game.java            # Game logic
+│       ├── GameState.java       # State management
+│       ├── GUI.java             # User interface
+│       └── Java2048.java        # Main game class
+├── res/
+│   ├── img/                     # Tile images
+│   │   ├── tile0 (2).png
+│   │   ├── tile1 (2).png
+│   │   ├── tile2 (2).png
+│   │   ├── tile3 (2).png
+│   │   ├── tile4 (2).png
+│   │   ├── tile5 (2).png
+│   │   ├── tile6 (2).png
+│   │   ├── tile7 (2).png
+│   │   ├── tile8 (2).png
+│   │   ├── tile9 (2).png
+│   │   ├── tile10 (2).png
+│   │   └── tile11 (2).png
+│   └── highscore.txt            # High score storage
+├── Interfaces/                  # Screenshots and UI images
+│   ├── Picture1.jpg
+│   ├── Picture2.jpg
+│   ├── Picture3.jpg
+│   └── Picture4.jpg
+├── Java2048.iml                 # IntelliJ IDEA module file
+└── README.md                    # Project documentation
 ```
 
 ## Tech Stack
