@@ -1,4 +1,4 @@
-# 2048 Game (Java)
+# 2048 Game
 
 Java implementation of the 2048 game, featuring intuitive tile movement and merging on a 4x4 grid. Built with Java Swing and AWT to deliver a responsive, visually appealing UI. Leveraging custom painting and the Java Collections Framework, this project enhances game performance with improved rendering speed and input response time.
 
@@ -69,7 +69,7 @@ Java implementation of the 2048 game, featuring intuitive tile movement and merg
 ## Project Structure
 ```
 ├── src/
-│   ├── Main.java                # Entry point
+│   ├── Main.java                
 │   └── game/
 │       ├── Game.java            # Game logic
 │       ├── GameState.java       # State management
@@ -96,7 +96,7 @@ Java implementation of the 2048 game, featuring intuitive tile movement and merg
 │   ├── Picture3.jpg
 │   └── Picture4.jpg
 ├── Java2048.iml                 # IntelliJ IDEA module file
-└── README.md                    # Project documentation
+└── README.md                    
 ```
 
 ## Tech Stack
